@@ -30,6 +30,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    /* It's the interface that allows a programming language to manipulate the content, structure, and style of a website. The browser uses HTML and CSS to structure and style a website and creates a representation of the HTML document called the Document Object Model (DOM). The model allows JavaScript to access text and elements of a website document as objects. */
+
 2. What is an event?
 
 3. What is an event listener?
