@@ -47,7 +47,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Why would we convert a NodeList into an Array?
 
+    /*
+    NodeList are only array-like, not actual arrays. So many Array methods such as forEach, map, and filter are not accesible.
+    */
+
 5. What is a component?
+
+    /* 
+    Components are reusable pieces of code that can be used to build elements sharing functionality and styling. This makes an easy, reusable way for developers to create tabs, buttons, or any other element of an HTML document that needs to be created multiple times.
+    */
 
 ### Git Set up
 
