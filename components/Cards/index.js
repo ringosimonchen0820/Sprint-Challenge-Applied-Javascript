@@ -43,3 +43,20 @@ function Article(data) {
 
     return card;
 }
+
+const cardsCont = document.querySelector('.cards-container');
+
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
+    .then(response =>{
+        const articlesObj = response.data.articles;
+        for (let key in articlesObj){
+            if(articlesObj.hasOwnProperty(key)){
+                articlesObj[key].forEach(article => {
+                    cardsCont.appendChild(Article(article));
+                })
+            }
+        }
+    })
+    .catch(err => {
+        console.log("bummer, you got an error: ", err);
+    })
