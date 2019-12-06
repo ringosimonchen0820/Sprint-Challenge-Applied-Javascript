@@ -8,7 +8,7 @@
 //  The tab component should look like this:
 //    <div class="tab">topic here</div>
 
-function Topic(topicData){
+function Topic(topicData) {
     newTopic = document.createElement('div');
     newTopic.classList.add('tab');
     newTopic.textContent = topicData;
